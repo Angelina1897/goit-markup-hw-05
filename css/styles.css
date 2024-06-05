@@ -593,11 +593,11 @@ position: relative;
 
 }
 .modal-icon {
-fill: #4D5AE5;
-position: absolute;
-left: 16px;
-top: 50%;
-transform: translateY(-50%);
+    fill: #4D5AE5;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .modal-text {
 width: 360px;
