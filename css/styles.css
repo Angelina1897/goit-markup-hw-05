@@ -541,12 +541,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.subscribe_text {
+.subscribe-text {
 width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
 background-color: transparent;
-font-size: 12px;
+font-size: 16px;
 line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
@@ -575,7 +575,7 @@ border-radius: 4px;
 }
 .modal-form-subscribe {
 display: flex;
-gap 24px;
+gap: 24px;
 }
 .footer-send-icon {
 fill: #fff;
