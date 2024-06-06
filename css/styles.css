@@ -549,6 +549,7 @@ margin-bottom: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #ffffff;
 }
 .subscribe-text {
 width: 264px;
@@ -646,8 +647,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 background-color: #404bbf;
 border: none;
 }
-.modal-close-button:hover>.modal-close-icon,
-.modal-close-button:focus>.modal-close-icon {
+.modal-close-button:hover,
+.modal-close-button:focus {
 fill: #FFFFFF;
 }
 .modal-close-icon {
