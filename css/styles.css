@@ -541,22 +541,27 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.subscribe-text-subs {
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.04em;
+margin-bottom: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 .subscribe-text {
 width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
 background-color: transparent;
-font-size: 16px;
+font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 padding-left: 16px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 color: #ffffff;
-margin-bottom: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 .subscribe-button {
 min-width: 165px;
