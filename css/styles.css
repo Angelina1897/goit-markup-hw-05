@@ -531,15 +531,8 @@ border: none;
 border-radius: ;
 }
 
-
-
-
-
 .container-subscribe-footer {
-position: fixed;
-display: flex;
-align-items: center;
-justify-content: center;
+margin-left: auto;
 }
 .subscribe-text-subs {
 font-size: 16px;
@@ -601,10 +594,9 @@ pointer-events: none;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-open {
-opacity: 1;
-visibility: visible;
-pointer-events: auto;
-
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 .modal {
 position: absolute;
@@ -768,7 +760,6 @@ fill: transparent;
 color: #4d5ae5;
 }
 .form-button {
-display: block;
 min-width: 169px;
 height: 56px;
 font-weight: 500;
@@ -778,6 +769,8 @@ color: #ffffff;
 cursor: pointer;
 background-color: #4D5AE5;
 border: none;
+margin: auto;
+display: block;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
